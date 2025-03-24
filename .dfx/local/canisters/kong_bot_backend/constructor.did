@@ -1,0 +1,40 @@
+type Alert = record { coin : text; target_price : float64; user : text };
+type HttpHeader = record { value : text; name : text };
+type HttpResponse = record {
+  status : nat;
+  body : blob;
+  headers : vec HttpHeader;
+};
+type Portfolio = record {
+  usd_balance : float64;
+  holdings : vec record { text; float64 };
+  transactions : vec Transaction;
+};
+type PriceHistory = record { last_price : float64 };
+type Result = variant { Ok : Portfolio; Err : text };
+type Result_1 = variant { Ok : float64; Err : text };
+type Transaction = record {
+  transaction_type : TransactionType;
+  coin_id : text;
+  timestamp : nat64;
+  total_value : float64;
+  price : float64;
+  amount : float64;
+};
+type TransactionType = variant { Buy; Sell };
+type TransformArgs = record { context : blob; response : HttpResponse };
+service : () -> {
+  buy_cryptocurrency : (text, text, float64) -> (text);
+  check_alerts : () -> ();
+  get_alerts : () -> (vec record { text; Alert }) query;
+  get_crypto_price_api : (text) -> (text);
+  get_icp_price : () -> (text);
+  get_portfolio : (text) -> (Result) query;
+  get_portfolio_value : (text) -> (Result_1);
+  get_price_history : () -> (vec record { text; PriceHistory }) query;
+  get_supported_cryptocurrencies : () -> (vec text) query;
+  initialize_portfolio : (text, opt float64) -> (text);
+  sell_cryptocurrency : (text, text, float64) -> (text);
+  set_alert : (text, text, float64) -> (text);
+  transform : (TransformArgs) -> (HttpResponse) query;
+}

@@ -1,0 +1,12 @@
+/home/phrazy/kong_bot/target/debug/deps/libarrayvec-e64c78d079c772ab.rmeta: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/maybe_uninit.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array_string.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/char.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/errors.rs
+
+/home/phrazy/kong_bot/target/debug/deps/libarrayvec-e64c78d079c772ab.rlib: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/maybe_uninit.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array_string.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/char.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/errors.rs
+
+/home/phrazy/kong_bot/target/debug/deps/arrayvec-e64c78d079c772ab.d: /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/lib.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/maybe_uninit.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array_string.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/char.rs /home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/errors.rs
+
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/lib.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/maybe_uninit.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/array_string.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/char.rs:
+/home/phrazy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.5.2/src/errors.rs:

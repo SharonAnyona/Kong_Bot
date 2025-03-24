@@ -1,0 +1,1 @@
+/home/phrazy/kong_bot/target/wasm32-unknown-unknown/release/kong_bot_backend.wasm: /home/phrazy/kong_bot/src/kong_bot_backend/src/alerts.rs /home/phrazy/kong_bot/src/kong_bot_backend/src/lib.rs /home/phrazy/kong_bot/src/kong_bot_backend/src/trading.rs

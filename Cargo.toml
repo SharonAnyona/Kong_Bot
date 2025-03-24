@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/kong_bot_backend"
+]
+resolver = "2"
