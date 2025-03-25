@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "kong_bot_backend": {
+      "candid": "src/kong_bot_backend/kong_bot_backend.did",
+      "package": "kong_bot_backend",
+      "type": "rust"
+    },
+    "kong_bot_frontend": {
+      "dependencies": [
+        "kong_bot_backend"
+      ],
+      "source": [
+        "src/kong_bot_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "kong_bot_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
